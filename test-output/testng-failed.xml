@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite All tests]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Api tests(failed)">
+    <groups>
+      <run>
+        <include name="Submit Order"/>
+        <include name="Api Testing"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="seleniumresttests.GetSearchSpecBuilderTest">
+        <methods>
+          <include name="GetProductData"/>
+        </methods>
+      </class> <!-- seleniumresttests.GetSearchSpecBuilderTest -->
+    </classes>
+  </test> <!-- Api tests(failed) -->
+</suite> <!-- Failed suite [Suite All tests] -->

@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.669" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jovica\eclipse-workspace\SeleniumRest\target\test-classes;C:\Users\jovica\eclipse-workspace\SeleniumRest\target\classes;C:\Users\jovica\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\jovica\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\jovica\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jovica\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\jovica\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\jovica\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\jovica\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jovica\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jovica\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jovica\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jovica\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jovica\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\jovica\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\jovica\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\jovica\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\jovica\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\jovica\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jovica\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jovica\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\jovica\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\jovica\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar;C:\Users\jovica\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\jovica\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\jovica\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\jovica\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\jovica\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar;C:\Users\jovica\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar;C:\Users\jovica\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\jovica\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jovica\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jovica\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jovica\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\jovica\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\jovica\AppData\Local\Temp\surefire18371925116991368313\surefirebooter-20230914124720717_3.jar C:\Users\jovica\AppData\Local\Temp\surefire18371925116991368313 2023-09-14T12-47-20_583-jvmRun1 surefire-20230914124720717_1tmp surefire_0-20230914124720717_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jovica\eclipse-workspace\SeleniumRest\target\test-classes;C:\Users\jovica\eclipse-workspace\SeleniumRest\target\classes;C:\Users\jovica\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\jovica\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\jovica\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jovica\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\jovica\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\jovica\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\jovica\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jovica\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jovica\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jovica\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jovica\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jovica\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jovica\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\jovica\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\jovica\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\jovica\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\jovica\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\jovica\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\jovica\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jovica\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jovica\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\jovica\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\jovica\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar;C:\Users\jovica\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\jovica\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\jovica\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\jovica\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\jovica\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\jovica\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\jovica\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\jovica\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\jovica\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar;C:\Users\jovica\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\jovica\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar;C:\Users\jovica\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\jovica\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jovica\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jovica\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jovica\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jovica"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\jovica\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\jovica\eclipse-workspace\SeleniumRest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jovica\AppData\Local\Temp\surefire18371925116991368313\surefirebooter-20230914124720717_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="jovica"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\jovica\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\jovica\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\jovica\eclipse-workspace\SeleniumRest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\jovica\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/jovica/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/jovica/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\jovica\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jovica\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="GetProduct" classname="seleniumresttests.GetGTest" time="1.227">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://search.gigatron.rs/v1/search/get?pojam=logitech%20g935
+Proxy:			<none>
+Request params:	<none>
+Query params:	pojam=logitech g935
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Thu, 14 Sep 2023 10:47:23 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+ETag: W/"3f75-fWOLQ4LOk/qFcyYGLnp331+Fkig"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+{
+    "took": 24,
+    "timed_out": false,
+    "_shards": {
+        "total": 3,
+        "successful": 3,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 2,
+        "max_score": 211.28653,
+        "hits": [
+            {
+                "_index": "gigatron",
+                "_type": "product",
+                "_id": "221790",
+                "_score": 211.28653,
+                "_source": {
+                    "search_result_data": {
+                        "id": 221790,
+                        "product_id": 221790,
+                        "ean": "5099206081918",
+                        "master_id": "5099206081918",
+                        "energy": null,
+                        "name": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744",
+                        "title": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744",
+                        "brand": "Logitech",
+                        "brand_id": "LOGITECH",
+                        "gigadrive": 0,
+                        "online_buy": 1,
+                        "outlet": 0,
+                        "brand_image": "https://img.gigatron.rs/img/brands/17d55d059591afc9c8d36f911f1e80f9.png",
+                        "price": "25999.00",
+                        "price_retail": "25999.00",
+                        "price_history": "28499.00",
+                        "specification_summary": [
+                            {
+                                "name": "Tip",
+                                "value": "Klasične slušalice"
+                            },
+                            {
+                                "name": "Bežične",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Gejmerske",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Povezivanje",
+                                "value": "3.5mm + USB"
+                            },
+                            {
+                                "name": "Mikrofon",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Pozicija mikrofona",
+                                "value": "Na slušalici"
+                            },
+                            {
+                                "name": "Osetljivost",
+                                "value": "93dB"
+                            }
+                        ],
+                        "small_image": "https://img.gigatron.rs/img/products/item/image64706af4141db.png",
+                        "image": "https://img.gigatron.rs/img/products/medium/image64706af4141db.png",
+                        "big_image": "https://img.gigatron.rs/img/products/large/image64706af4141db.png",
+                        "customer_reviews": {
+                            "count": 7,
+                            "value": 4.624285714
+                        },
+                        "prices": {
+                            "price": {
+                                "label": "",
+                                "value": 25999,
+                                "formated": "25.999",
+                                "class": "price",
+                                "monet": "RSD"
+                            },
+                            "old": {
+                                "label": "Stara cena",
+                                "value": 28499,
+                                "formated": "28.499",
+                                "class": "old-price",
+                                "monet": "RSD"
+                            },
+                            "saving": {
+                                "label": "Ušteda",
+                                "value": 2500,
+                                "formated": "2.500",
+                                "class": "saving-price",
+                                "monet": "RSD"
+                            },
+                            "installment": {
+                                "label": "Rata bez kamate već od:",
+                                "value": 1083.2916666666667,
+                                "formated": "108.3.2.916.666.666.667",
+                                "class": "install-price",
+                                "monet": "RSD",
+                                "helper": "<div class=\"helper\"><ul><li>Plaćanje čpovima građana do 24 jednake mesečne rate bez kamate</li> <li>Raiffeisen web kredit – kupovina na 24 rate bez kamate</li> <li>Eurobank kredit - kupovina na 24 rate bez kamate</li> </ul> <p>*Iznos mesečnog održavanja nije uračunat u cenu</p> </div>"
+                            }
+                        },
+                        "energy_sticker": {
+                            "color": null,
+                            "img": null,
+                            "hover": null,
+                            "name": null,
+                            "label": null
+                        },
+                        "energy_file": null,
+                        "stickers": {
+                            "top": [
+                                
+                            ],
+                            "bottom": [
+                                
+                            ],
+                            "image": [
+                                
+                            ]
+                        },
+                        "img": "image64706af4141db.png",
+                        "statistic_visits": 0,
+                        "statistic_rating": 4.39,
+                        "statistic_votes": 9,
+                        "gift_url": "",
+                        "gift_start_date": null,
+                        "gift_end_date": null,
+                        "promocode_id": [
+                            
+                        ],
+                        "daily_deal": 0,
+                        "daily_promotion": 0,
+                        "stock": 8,
+                        "shock": 0,
+                        "top": 0,
+                        "category": "TV, audio, video",
+                        "category_id": 5,
+                        "category_slug": "tv-audio-video",
+                        "subcategory": "Slušalice",
+                        "subcategory_id": 74,
+                        "subcategory_slug": "slusalice",
+                        "product_focus": 0,
+                        "parent_id": null,
+                        "group_name": null,
+                        "group_slug": null,
+                        "match_slug": "slusalice",
+                        "url": "/slusalice/logitech-gejmerske-slusalice-g935-wireless-crna-981-000744-221790"
+                    },
+                    "search_data": {
+                        "full_text": "221790 5099206081918 LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744  Klasične slušalice   3.5mm + USB  Na slušalici 93dB ",
+                        "full_text_latinized": "221790 5099206081918 LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slusalice Logitech LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744  Klasicne slusalice   3.5mm + USB  Na slusalici 93dB ",
+                        "full_text_boosted": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744",
+                        "full_text_specification": "Tip Klasicne slusalice Bezicne Da Gejmerske Da Povezivanje 3.5mm + USB Mikrofon Da Tip mikrofona Usmereni (unidirectional) Pozicija mikrofona Na slusalici Sistem Virtual Surround 7.1 Precnik zvucnika 50 mm Frekventni odziv 20Hz - 20KHz Impedansa 39 Ω"
+                    },
+                    "suggestion_terms": [
+                        "TV, audio, video",
+                        "Slušalice",
+                        "Logitech",
+                        "LOGITECH",
+                        "gejmerske",
+                        "slušalice",
+                        "G935",
+                        "Wireless",
+                        "(Crna)",
+                        "981",
+                        "000744"
+                    ],
+                    "number_sort": {
+                        "final_gross_price": 25999
+                    },
+                    "facets": [
+                        {
+                            "facet-value": "Klasične slušalice",
+                            "facet-id": 202742,
+                            "facet-name-position": 1,
+                            "facet-name": "Tip",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 203624,
+                            "facet-name-position": 2,
+                            "facet-name": "Bežične",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 203630,
+                            "facet-name-position": 3,
+                            "facet-name": "Gejmerske",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "3.5mm + USB",
+                            "facet-id": 10611,
+                            "facet-name-position": 4,
+                            "facet-name": "Povezivanje",
+                            "facet-position": 27
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 48328,
+                            "facet-name-position": 6,
+                            "facet-name": "Mikrofon",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Usmereni (unidirectional)",
+                            "facet-id": 203456,
+                            "facet-name-position": 7,
+                            "facet-name": "Tip mikrofona",
+                            "facet-position": 2
+                        },
+                        {
+                            "facet-value": "Na slušalici",
+                            "facet-id": 48334,
+                            "facet-name-position": 8,
+                            "facet-name": "Pozicija mikrofona",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Virtual Surround 7.1",
+                            "facet-id": 202913,
+                            "facet-name-position": 14,
+                            "facet-name": "Sistem",
+                            "facet-position": 3
+                        },
+                        {
+                            "facet-value": "50 mm",
+                            "facet-id": 203051,
+                            "facet-name-position": 15,
+                            "facet-name": "Prečnik zvučnika",
+                            "facet-position": 56
+                        },
+                        {
+                            "facet-value": "20Hz - 20KHz",
+                            "facet-id": 203204,
+                            "facet-name-position": 17,
+                            "facet-name": "Frekventni odziv",
+                            "facet-position": 77
+                        },
+                        {
+                            "facet-value": "39 Ω",
+                            "facet-id": 204245,
+                            "facet-name-position": 18,
+                            "facet-name": "Impedansa",
+                            "facet-position": 28
+                        }
+                    ]
+                }
+            },
+            {
+                "_index": "gigatron",
+                "_type": "product",
+                "_id": "545369",
+                "_score": 21.404736,
+                "_source": {
+                    "search_result_data": {
+                        "id": 545369,
+                        "product_id": 545369,
+                        "ean": "OUT899214",
+                        "master_id": "OUT899214",
+                        "energy": null,
+                        "name": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET",
+                        "title": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET",
+                        "brand": "Logitech",
+                        "brand_id": "LOGITECH",
+                        "gigadrive": 0,
+                        "online_buy": 0,
+                        "outlet": 1,
+                        "brand_image": "https://img.gigatron.rs/img/brands/17d55d059591afc9c8d36f911f1e80f9.png",
+                        "price": "14999.00",
+                        "price_retail": "14999.00",
+                        "price_history": "19999.00",
+                        "specification_summary": [
+                            {
+                                "name": "Tip",
+                                "value": "Klasične slušalice"
+                            },
+                            {
+                                "name": "Bežične",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Gejmerske",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Povezivanje",
+                                "value": "3.5mm + USB"
+                            },
+                            {
+                                "name": "Mikrofon",
+                                "value": "Da"
+                            },
+                            {
+                                "name": "Pozicija mikrofona",
+                                "value": "Na slušalici"
+                            },
+                            {
+                                "name": "Osetljivost",
+                                "value": "93dB"
+                            }
+                        ],
+                        "small_image": "https://img.gigatron.rs/img/products/item/image64706b3562885.jpg",
+                        "image": "https://img.gigatron.rs/img/products/medium/image64706b3562885.jpg",
+                        "big_image": "https://img.gigatron.rs/img/products/large/image64706b3562885.jpg",
+                        "customer_reviews": {
+                            "count": 0,
+                            "value": 0
+                        },
+                        "prices": {
+                            "price": {
+                                "label": "",
+                                "value": 14999,
+                                "formated": "14.999",
+                                "class": "price",
+                                "monet": "RSD"
+                            },
+                            "old": {
+                                "label": "Stara cena",
+                                "value": 19999,
+                                "formated": "19.999",
+                                "class": "old-price",
+                                "monet": "RSD"
+                            },
+                            "saving": {
+                                "label": "Ušteda",
+                                "value": 5000,
+                                "formated": "5.000",
+                                "class": "saving-price",
+                                "monet": "RSD"
+                            },
+                            "installment": {
+                                "label": "Rata bez kamate već od:",
+                                "value": 624.9583333333334,
+                                "formated": "62.4.9.583.333.333.334",
+                                "class": "install-price",
+                                "monet": "RSD",
+                                "helper": "<div class=\"helper\"><ul><li>Plaćanje čpovima građana do 24 jednake mesečne rate bez kamate</li> <li>Raiffeisen web kredit – kupovina na 24 rate bez kamate</li> <li>Eurobank kredit - kupovina na 24 rate bez kamate</li> </ul> <p>*Iznos mesečnog održavanja nije uračunat u cenu</p> </div>"
+                            }
+                        },
+                        "energy_sticker": {
+                            "color": null,
+                            "img": null,
+                            "hover": null,
+                            "name": null,
+                            "label": null
+                        },
+                        "energy_file": null,
+                        "stickers": {
+                            "top": [
+                                
+                            ],
+                            "bottom": [
+                                
+                            ],
+                            "image": [
+                                
+                            ]
+                        },
+                        "img": "image64706b3562885.jpg",
+                        "statistic_visits": 0,
+                        "statistic_rating": 0,
+                        "statistic_votes": 0,
+                        "gift_url": "",
+                        "gift_start_date": null,
+                        "gift_end_date": null,
+                        "promocode_id": [
+                            
+                        ],
+                        "daily_deal": 0,
+                        "daily_promotion": 0,
+                        "stock": 1,
+                        "shock": 0,
+                        "top": 0,
+                        "category": "TV, audio, video",
+                        "category_id": 5,
+                        "category_slug": "tv-audio-video",
+                        "subcategory": "Slušalice",
+                        "subcategory_id": 74,
+                        "subcategory_slug": "slusalice",
+                        "product_focus": 0,
+                        "parent_id": null,
+                        "group_name": null,
+                        "group_slug": null,
+                        "match_slug": "slusalice",
+                        "url": "/slusalice/logitech-gejmerske-slusalice-g935-wireless-crna-981-000744-outlet-545369"
+                    },
+                    "search_data": {
+                        "full_text": "545369 OUT899214 LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET  Klasične slušalice   3.5mm + USB  Na slušalici 93dB ",
+                        "full_text_latinized": "545369 OUT899214 LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slusalice Logitech LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 OUTLET  Klasicne slusalice   3.5mm + USB  Na slusalici 93dB ",
+                        "full_text_boosted": "LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET",
+                        "full_text_specification": "Tip Klasicne slusalice Bezicne Da Gejmerske Da Povezivanje 3.5mm + USB Mikrofon Da Tip mikrofona Usmereni (unidirectional) Pozicija mikrofona Na slusalici Sistem Virtual Surround 7.1 Precnik zvucnika 50 mm Frekventni odziv 20Hz - 20KHz Impedansa 39 Ω"
+                    },
+                    "suggestion_terms": [
+                        "TV, audio, video",
+                        "Slušalice",
+                        "Logitech",
+                        "LOGITECH",
+                        "gejmerske",
+                        "slušalice",
+                        "G935",
+                        "Wireless",
+                        "(Crna)",
+                        "981",
+                        "000744",
+                        "OUTLET"
+                    ],
+                    "number_sort": {
+                        "final_gross_price": 14999
+                    },
+                    "facets": [
+                        {
+                            "facet-value": "Klasične slušalice",
+                            "facet-id": 202742,
+                            "facet-name-position": 1,
+                            "facet-name": "Tip",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 203624,
+                            "facet-name-position": 2,
+                            "facet-name": "Bežične",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 203630,
+                            "facet-name-position": 3,
+                            "facet-name": "Gejmerske",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "3.5mm + USB",
+                            "facet-id": 10611,
+                            "facet-name-position": 4,
+                            "facet-name": "Povezivanje",
+                            "facet-position": 27
+                        },
+                        {
+                            "facet-value": "Da",
+                            "facet-id": 48328,
+                            "facet-name-position": 6,
+                            "facet-name": "Mikrofon",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Usmereni (unidirectional)",
+                            "facet-id": 203456,
+                            "facet-name-position": 7,
+                            "facet-name": "Tip mikrofona",
+                            "facet-position": 2
+                        },
+                        {
+                            "facet-value": "Na slušalici",
+                            "facet-id": 48334,
+                            "facet-name-position": 8,
+                            "facet-name": "Pozicija mikrofona",
+                            "facet-position": 1
+                        },
+                        {
+                            "facet-value": "Virtual Surround 7.1",
+                            "facet-id": 202913,
+                            "facet-name-position": 14,
+                            "facet-name": "Sistem",
+                            "facet-position": 3
+                        },
+                        {
+                            "facet-value": "50 mm",
+                            "facet-id": 203051,
+                            "facet-name-position": 15,
+                            "facet-name": "Prečnik zvučnika",
+                            "facet-position": 56
+                        },
+                        {
+                            "facet-value": "20Hz - 20KHz",
+                            "facet-id": 203204,
+                            "facet-name-position": 17,
+                            "facet-name": "Frekventni odziv",
+                            "facet-position": 77
+                        },
+                        {
+                            "facet-value": "39 Ω",
+                            "facet-id": 204245,
+                            "facet-name-position": 18,
+                            "facet-name": "Impedansa",
+                            "facet-position": 28
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "aggregations": {
+        "agg_full_filtered": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "facets": {
+                "doc_count": 22,
+                "facetName": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "Tip",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 1
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Klasične slušalice",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Bežične",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 2
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Gejmerske",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 3
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Povezivanje",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 4
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "3.5mm + USB",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 27
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Mikrofon",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 6
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Tip mikrofona",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 7
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Usmereni (unidirectional)",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Pozicija mikrofona",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 8
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Na slušalici",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Sistem",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 14
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Virtual Surround 7.1",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Prečnik zvučnika",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 15
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "50 mm",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 56
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Frekventni odziv",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 17
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "20Hz - 20KHz",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 77
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Impedansa",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 18
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "39 Ω",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 28
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "max_price": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "price": {
+                "value": 25999
+            }
+        },
+        "brands": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "names": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Logitech",
+                        "doc_count": 2
+                    }
+                ]
+            }
+        },
+        "min_price": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "price": {
+                "value": 14999
+            }
+        },
+        "categories": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "names": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Slušalice",
+                        "doc_count": 2
+                    }
+                ]
+            }
+        },
+        "agg_full": {
+            "meta": {
+                
+            },
+            "doc_count": 2,
+            "facets": {
+                "doc_count": 22,
+                "facetName": {
+                    "doc_count_error_upper_bound": 0,
+                    "sum_other_doc_count": 0,
+                    "buckets": [
+                        {
+                            "key": "Tip",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 1
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Klasične slušalice",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Bežične",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 2
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Gejmerske",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 3
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Povezivanje",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 4
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "3.5mm + USB",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 27
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Mikrofon",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 6
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Da",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Tip mikrofona",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 7
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Usmereni (unidirectional)",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Pozicija mikrofona",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 8
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Na slušalici",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Sistem",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 14
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "Virtual Surround 7.1",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Prečnik zvučnika",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 15
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "50 mm",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 56
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Frekventni odziv",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 17
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "20Hz - 20KHz",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 77
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "Impedansa",
+                            "doc_count": 2,
+                            "sum_top": {
+                                "value": 18
+                            },
+                            "facetValue": {
+                                "doc_count_error_upper_bound": 0,
+                                "sum_other_doc_count": 0,
+                                "buckets": [
+                                    {
+                                        "key": "39 Ω",
+                                        "doc_count": 2,
+                                        "max_pos": {
+                                            "value": 28
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "suggest": {
+        "category": [
+            {
+                "text": "logitech g935",
+                "offset": 0,
+                "length": 13,
+                "options": [
+                    
+                ]
+            }
+        ],
+        "smart_word": [
+            {
+                "text": "logitech",
+                "offset": 0,
+                "length": 8,
+                "options": [
+                    
+                ]
+            },
+            {
+                "text": "g935",
+                "offset": 9,
+                "length": 4,
+                "options": [
+                    {
+                        "text": "g915",
+                        "score": 0.75,
+                        "freq": 2
+                    },
+                    {
+                        "text": "g435",
+                        "score": 0.75,
+                        "freq": 1
+                    },
+                    {
+                        "text": "g985",
+                        "score": 0.75,
+                        "freq": 1
+                    },
+                    {
+                        "text": "g733",
+                        "score": 0.5,
+                        "freq": 2
+                    },
+                    {
+                        "text": "g125",
+                        "score": 0.5,
+                        "freq": 1
+                    }
+                ]
+            }
+        ],
+        "spelling-suggestion": [
+            {
+                "text": "logitech&amp#31;g935",
+                "offset": 0,
+                "length": 13,
+                "options": [
+                    
+                ]
+            }
+        ]
+    },
+    "totalPages": 1,
+    "currentPage": 1,
+    "active_filters": {
+        "price": [
+            
+        ],
+        "facets": [
+            
+        ]
+    },
+    "sort": "score",
+    "keyword": "logitech g935",
+    "limit": 24
+}
+*****************************************************
+{"took":24,"timed_out":false,"_shards":{"total":3,"successful":3,"skipped":0,"failed":0},"hits":{"total":2,"max_score":211.28653,"hits":[{"_index":"gigatron","_type":"product","_id":"221790","_score":211.28653,"_source":{"search_result_data":{"id":221790,"product_id":221790,"ean":"5099206081918","master_id":"5099206081918","energy":null,"name":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744","title":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744","brand":"Logitech","brand_id":"LOGITECH","gigadrive":0,"online_buy":1,"outlet":0,"brand_image":"https://img.gigatron.rs/img/brands/17d55d059591afc9c8d36f911f1e80f9.png","price":"25999.00","price_retail":"25999.00","price_history":"28499.00","specification_summary":[{"name":"Tip","value":"Klasične slušalice"},{"name":"Bežične","value":"Da"},{"name":"Gejmerske","value":"Da"},{"name":"Povezivanje","value":"3.5mm + USB"},{"name":"Mikrofon","value":"Da"},{"name":"Pozicija mikrofona","value":"Na slušalici"},{"name":"Osetljivost","value":"93dB"}],"small_image":"https://img.gigatron.rs/img/products/item/image64706af4141db.png","image":"https://img.gigatron.rs/img/products/medium/image64706af4141db.png","big_image":"https://img.gigatron.rs/img/products/large/image64706af4141db.png","customer_reviews":{"count":7,"value":4.624285714},"prices":{"price":{"label":"","value":25999,"formated":"25.999","class":"price","monet":"RSD"},"old":{"label":"Stara cena","value":28499,"formated":"28.499","class":"old-price","monet":"RSD"},"saving":{"label":"Ušteda","value":2500,"formated":"2.500","class":"saving-price","monet":"RSD"},"installment":{"label":"Rata bez kamate već od:","value":1083.2916666666667,"formated":"108.3.2.916.666.666.667","class":"install-price","monet":"RSD","helper":"<div class=\"helper\"><ul><li>Plaćanje čpovima građana do 24 jednake mesečne rate bez kamate</li> <li>Raiffeisen web kredit – kupovina na 24 rate bez kamate</li> <li>Eurobank kredit - kupovina na 24 rate bez kamate</li> </ul> <p>*Iznos mesečnog održavanja nije uračunat u cenu</p> </div>"}},"energy_sticker":{"color":null,"img":null,"hover":null,"name":null,"label":null},"energy_file":null,"stickers":{"top":[],"bottom":[],"image":[]},"img":"image64706af4141db.png","statistic_visits":0,"statistic_rating":4.39,"statistic_votes":9,"gift_url":"","gift_start_date":null,"gift_end_date":null,"promocode_id":[],"daily_deal":0,"daily_promotion":0,"stock":8,"shock":0,"top":0,"category":"TV, audio, video","category_id":5,"category_slug":"tv-audio-video","subcategory":"Slušalice","subcategory_id":74,"subcategory_slug":"slusalice","product_focus":0,"parent_id":null,"group_name":null,"group_slug":null,"match_slug":"slusalice","url":"/slusalice/logitech-gejmerske-slusalice-g935-wireless-crna-981-000744-221790"},"search_data":{"full_text":"221790 5099206081918 LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744  Klasične slušalice   3.5mm + USB  Na slušalici 93dB ","full_text_latinized":"221790 5099206081918 LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slusalice Logitech LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744  Klasicne slusalice   3.5mm + USB  Na slusalici 93dB ","full_text_boosted":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744","full_text_specification":"Tip Klasicne slusalice Bezicne Da Gejmerske Da Povezivanje 3.5mm + USB Mikrofon Da Tip mikrofona Usmereni (unidirectional) Pozicija mikrofona Na slusalici Sistem Virtual Surround 7.1 Precnik zvucnika 50 mm Frekventni odziv 20Hz - 20KHz Impedansa 39 Ω"},"suggestion_terms":["TV, audio, video","Slušalice","Logitech","LOGITECH","gejmerske","slušalice","G935","Wireless","(Crna)","981","000744"],"number_sort":{"final_gross_price":25999},"facets":[{"facet-value":"Klasične slušalice","facet-id":202742,"facet-name-position":1,"facet-name":"Tip","facet-position":1},{"facet-value":"Da","facet-id":203624,"facet-name-position":2,"facet-name":"Bežične","facet-position":1},{"facet-value":"Da","facet-id":203630,"facet-name-position":3,"facet-name":"Gejmerske","facet-position":1},{"facet-value":"3.5mm + USB","facet-id":10611,"facet-name-position":4,"facet-name":"Povezivanje","facet-position":27},{"facet-value":"Da","facet-id":48328,"facet-name-position":6,"facet-name":"Mikrofon","facet-position":1},{"facet-value":"Usmereni (unidirectional)","facet-id":203456,"facet-name-position":7,"facet-name":"Tip mikrofona","facet-position":2},{"facet-value":"Na slušalici","facet-id":48334,"facet-name-position":8,"facet-name":"Pozicija mikrofona","facet-position":1},{"facet-value":"Virtual Surround 7.1","facet-id":202913,"facet-name-position":14,"facet-name":"Sistem","facet-position":3},{"facet-value":"50 mm","facet-id":203051,"facet-name-position":15,"facet-name":"Prečnik zvučnika","facet-position":56},{"facet-value":"20Hz - 20KHz","facet-id":203204,"facet-name-position":17,"facet-name":"Frekventni odziv","facet-position":77},{"facet-value":"39 Ω","facet-id":204245,"facet-name-position":18,"facet-name":"Impedansa","facet-position":28}]}},{"_index":"gigatron","_type":"product","_id":"545369","_score":21.404736,"_source":{"search_result_data":{"id":545369,"product_id":545369,"ean":"OUT899214","master_id":"OUT899214","energy":null,"name":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET","title":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET","brand":"Logitech","brand_id":"LOGITECH","gigadrive":0,"online_buy":0,"outlet":1,"brand_image":"https://img.gigatron.rs/img/brands/17d55d059591afc9c8d36f911f1e80f9.png","price":"14999.00","price_retail":"14999.00","price_history":"19999.00","specification_summary":[{"name":"Tip","value":"Klasične slušalice"},{"name":"Bežične","value":"Da"},{"name":"Gejmerske","value":"Da"},{"name":"Povezivanje","value":"3.5mm + USB"},{"name":"Mikrofon","value":"Da"},{"name":"Pozicija mikrofona","value":"Na slušalici"},{"name":"Osetljivost","value":"93dB"}],"small_image":"https://img.gigatron.rs/img/products/item/image64706b3562885.jpg","image":"https://img.gigatron.rs/img/products/medium/image64706b3562885.jpg","big_image":"https://img.gigatron.rs/img/products/large/image64706b3562885.jpg","customer_reviews":{"count":0,"value":0},"prices":{"price":{"label":"","value":14999,"formated":"14.999","class":"price","monet":"RSD"},"old":{"label":"Stara cena","value":19999,"formated":"19.999","class":"old-price","monet":"RSD"},"saving":{"label":"Ušteda","value":5000,"formated":"5.000","class":"saving-price","monet":"RSD"},"installment":{"label":"Rata bez kamate već od:","value":624.9583333333334,"formated":"62.4.9.583.333.333.334","class":"install-price","monet":"RSD","helper":"<div class=\"helper\"><ul><li>Plaćanje čpovima građana do 24 jednake mesečne rate bez kamate</li> <li>Raiffeisen web kredit – kupovina na 24 rate bez kamate</li> <li>Eurobank kredit - kupovina na 24 rate bez kamate</li> </ul> <p>*Iznos mesečnog održavanja nije uračunat u cenu</p> </div>"}},"energy_sticker":{"color":null,"img":null,"hover":null,"name":null,"label":null},"energy_file":null,"stickers":{"top":[],"bottom":[],"image":[]},"img":"image64706b3562885.jpg","statistic_visits":0,"statistic_rating":0,"statistic_votes":0,"gift_url":"","gift_start_date":null,"gift_end_date":null,"promocode_id":[],"daily_deal":0,"daily_promotion":0,"stock":1,"shock":0,"top":0,"category":"TV, audio, video","category_id":5,"category_slug":"tv-audio-video","subcategory":"Slušalice","subcategory_id":74,"subcategory_slug":"slusalice","product_focus":0,"parent_id":null,"group_name":null,"group_slug":null,"match_slug":"slusalice","url":"/slusalice/logitech-gejmerske-slusalice-g935-wireless-crna-981-000744-outlet-545369"},"search_data":{"full_text":"545369 OUT899214 LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET  Klasične slušalice   3.5mm + USB  Na slušalici 93dB ","full_text_latinized":"545369 OUT899214 LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slusalice Logitech LOGITECH gejmerske slusalice G935 Wireless (Crna) 981 000744 OUTLET  Klasicne slusalice   3.5mm + USB  Na slusalici 93dB ","full_text_boosted":"LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET LOGITECH TV, audio, video Slušalice Logitech LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744 OUTLET","full_text_specification":"Tip Klasicne slusalice Bezicne Da Gejmerske Da Povezivanje 3.5mm + USB Mikrofon Da Tip mikrofona Usmereni (unidirectional) Pozicija mikrofona Na slusalici Sistem Virtual Surround 7.1 Precnik zvucnika 50 mm Frekventni odziv 20Hz - 20KHz Impedansa 39 Ω"},"suggestion_terms":["TV, audio, video","Slušalice","Logitech","LOGITECH","gejmerske","slušalice","G935","Wireless","(Crna)","981","000744","OUTLET"],"number_sort":{"final_gross_price":14999},"facets":[{"facet-value":"Klasične slušalice","facet-id":202742,"facet-name-position":1,"facet-name":"Tip","facet-position":1},{"facet-value":"Da","facet-id":203624,"facet-name-position":2,"facet-name":"Bežične","facet-position":1},{"facet-value":"Da","facet-id":203630,"facet-name-position":3,"facet-name":"Gejmerske","facet-position":1},{"facet-value":"3.5mm + USB","facet-id":10611,"facet-name-position":4,"facet-name":"Povezivanje","facet-position":27},{"facet-value":"Da","facet-id":48328,"facet-name-position":6,"facet-name":"Mikrofon","facet-position":1},{"facet-value":"Usmereni (unidirectional)","facet-id":203456,"facet-name-position":7,"facet-name":"Tip mikrofona","facet-position":2},{"facet-value":"Na slušalici","facet-id":48334,"facet-name-position":8,"facet-name":"Pozicija mikrofona","facet-position":1},{"facet-value":"Virtual Surround 7.1","facet-id":202913,"facet-name-position":14,"facet-name":"Sistem","facet-position":3},{"facet-value":"50 mm","facet-id":203051,"facet-name-position":15,"facet-name":"Prečnik zvučnika","facet-position":56},{"facet-value":"20Hz - 20KHz","facet-id":203204,"facet-name-position":17,"facet-name":"Frekventni odziv","facet-position":77},{"facet-value":"39 Ω","facet-id":204245,"facet-name-position":18,"facet-name":"Impedansa","facet-position":28}]}}]},"aggregations":{"agg_full_filtered":{"meta":{},"doc_count":2,"facets":{"doc_count":22,"facetName":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Tip","doc_count":2,"sum_top":{"value":1},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Klasične slušalice","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Bežične","doc_count":2,"sum_top":{"value":2},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Gejmerske","doc_count":2,"sum_top":{"value":3},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Povezivanje","doc_count":2,"sum_top":{"value":4},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"3.5mm + USB","doc_count":2,"max_pos":{"value":27}}]}},{"key":"Mikrofon","doc_count":2,"sum_top":{"value":6},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Tip mikrofona","doc_count":2,"sum_top":{"value":7},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Usmereni (unidirectional)","doc_count":2,"max_pos":{"value":2}}]}},{"key":"Pozicija mikrofona","doc_count":2,"sum_top":{"value":8},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Na slušalici","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Sistem","doc_count":2,"sum_top":{"value":14},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Virtual Surround 7.1","doc_count":2,"max_pos":{"value":3}}]}},{"key":"Prečnik zvučnika","doc_count":2,"sum_top":{"value":15},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"50 mm","doc_count":2,"max_pos":{"value":56}}]}},{"key":"Frekventni odziv","doc_count":2,"sum_top":{"value":17},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"20Hz - 20KHz","doc_count":2,"max_pos":{"value":77}}]}},{"key":"Impedansa","doc_count":2,"sum_top":{"value":18},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"39 Ω","doc_count":2,"max_pos":{"value":28}}]}}]}}},"max_price":{"meta":{},"doc_count":2,"price":{"value":25999}},"brands":{"meta":{},"doc_count":2,"names":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Logitech","doc_count":2}]}},"min_price":{"meta":{},"doc_count":2,"price":{"value":14999}},"categories":{"meta":{},"doc_count":2,"names":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Slušalice","doc_count":2}]}},"agg_full":{"meta":{},"doc_count":2,"facets":{"doc_count":22,"facetName":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Tip","doc_count":2,"sum_top":{"value":1},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Klasične slušalice","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Bežične","doc_count":2,"sum_top":{"value":2},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Gejmerske","doc_count":2,"sum_top":{"value":3},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Povezivanje","doc_count":2,"sum_top":{"value":4},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"3.5mm + USB","doc_count":2,"max_pos":{"value":27}}]}},{"key":"Mikrofon","doc_count":2,"sum_top":{"value":6},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Da","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Tip mikrofona","doc_count":2,"sum_top":{"value":7},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Usmereni (unidirectional)","doc_count":2,"max_pos":{"value":2}}]}},{"key":"Pozicija mikrofona","doc_count":2,"sum_top":{"value":8},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Na slušalici","doc_count":2,"max_pos":{"value":1}}]}},{"key":"Sistem","doc_count":2,"sum_top":{"value":14},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"Virtual Surround 7.1","doc_count":2,"max_pos":{"value":3}}]}},{"key":"Prečnik zvučnika","doc_count":2,"sum_top":{"value":15},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"50 mm","doc_count":2,"max_pos":{"value":56}}]}},{"key":"Frekventni odziv","doc_count":2,"sum_top":{"value":17},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"20Hz - 20KHz","doc_count":2,"max_pos":{"value":77}}]}},{"key":"Impedansa","doc_count":2,"sum_top":{"value":18},"facetValue":{"doc_count_error_upper_bound":0,"sum_other_doc_count":0,"buckets":[{"key":"39 Ω","doc_count":2,"max_pos":{"value":28}}]}}]}}}},"suggest":{"category":[{"text":"logitech g935","offset":0,"length":13,"options":[]}],"smart_word":[{"text":"logitech","offset":0,"length":8,"options":[]},{"text":"g935","offset":9,"length":4,"options":[{"text":"g915","score":0.75,"freq":2},{"text":"g435","score":0.75,"freq":1},{"text":"g985","score":0.75,"freq":1},{"text":"g733","score":0.5,"freq":2},{"text":"g125","score":0.5,"freq":1}]}],"spelling-suggestion":[{"text":"logitech\u001fg935","offset":0,"length":13,"options":[]}]},"totalPages":1,"currentPage":1,"active_filters":{"price":[],"facets":[]},"sort":"score","keyword":"logitech g935","limit":24}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="GetProductData" classname="seleniumresttests.GetGTest" time="0.623">
+    <failure message="The following asserts failed:&#10;	expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at seleniumresttests.GetGTest.GetProductData(GetGTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744
+Logitech
+]]></system-out>
+  </testcase>
+  <testcase name="GetProductData" classname="seleniumresttests.GetSearchSpecBuilderTest" time="0.147">
+    <failure message="The following asserts failed:&#10;	expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at seleniumresttests.GetSearchSpecBuilderTest.GetProductData(GetSearchSpecBuilderTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[LOGITECH gejmerske slušalice G935 Wireless (Crna) 981 000744
+Logitech
+]]></system-out>
+  </testcase>
+  <testcase name="SubmitOrder" classname="seleniumresttests.SubmitOrderTest" time="9.595"/>
+  <testcase name="SubmitOrder" classname="seleniumresttests.SubmitOrderThreadsTest" time="10.683"/>
+</testsuite>

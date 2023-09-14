@@ -1,0 +1,8 @@
+seleniumresttests\SubmitOrderTest.class
+seleniumresttests\GetSearchSpecBuilderTest.class
+seleniumresttests\GetGTest2.class
+seleniumresttests\GetGTest.class
+testcomponents\BaseTest.class
+testcomponents\Listeners.class
+seleniumresttests\SubmitOrderThreadsTest.class
+seleniumresttests\StandAloneTest.class
